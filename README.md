@@ -1,5 +1,8 @@
-# good-company
-# A Smart Contract based on OZ Governor contract
+# good-company 
+
+![Test](https://github.com/Mahmoud-Mehri/good-company/actions/workflows/node.js.yml/badge.svg)
+
+# A Smart Contract based on OZ Governor
 
 The Scenario:
 
@@ -21,8 +24,4 @@ To run test:
 npm install
 npx hardhat test:jest
 ```
-
-![Test-1](https://i.ibb.co/7Q9wJNX/image.png) 
-
-![Test-1](https://i.ibb.co/ySGWMPB/image.png) 
 
