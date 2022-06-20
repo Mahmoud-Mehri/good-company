@@ -1,4 +1,5 @@
 require("@nomiclabs/hardhat-waffle");
+require("hardhat-jest-plugin");
 
 /**
  * @type import('hardhat/config').HardhatUserConfig

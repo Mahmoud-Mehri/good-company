@@ -54,7 +54,7 @@ describe("Company NFT Token", () => {
         })
     })
 
-    describe("Transfers", async () => {
+    describe("Transfers", () => {
         it("Transfering from an address without Owner priviledge should be failed", async () => {
             const newAddr = await accounts[1].getAddress();
             await expect(token.transferFrom(`${newAddr}`, `${ownerAddr}`, `${secondTokenId}`))

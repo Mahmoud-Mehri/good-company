@@ -37,7 +37,7 @@ describe("Testing Good Company!", () => {
     }
 
     describe("Deploying tokens and main contract", () => {
-        before(async () => {
+        beforeAll(async () => {
             accounts = await ethers.getSigners();
             ownerAccount = accounts[0];
             ownerAddress = await ownerAccount.getAddress();
@@ -165,7 +165,7 @@ describe("Testing Good Company!", () => {
     })
 
     describe("Voting Process", () => {
-        before(async () => {
+        beforeAll(async () => {
             employeeAccount = accounts[12];
             employeeAddress = await employeeAccount.getAddress();
             requestId = await createNewSampleRequest(employeeAccount, employeeAddress, 1000);

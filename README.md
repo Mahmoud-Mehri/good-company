@@ -1,5 +1,5 @@
 # good-company
-A Smart Contract based on OZ Governor contract
+# A Smart Contract based on OZ Governor contract
 
 The Scenario:
 
@@ -15,14 +15,14 @@ The main contract which named GoodCompany implemented based on OZ Governance con
 
 The source of those Tokens is also included.
 
-You need to have these packages installed:
+To run test:
 
-Hardhat framework
+```
+npm install
+npx hardhat test:jest
+```
 
-Ethers.js library
+![Test-1](https://ibb.co/sCB0vJ2) 
 
-Chai & Mocha for testing
+![Test-1](https://ibb.co/16h8pQJ) 
 
-...
-
-For more information check the test files!
